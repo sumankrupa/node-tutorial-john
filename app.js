@@ -14,12 +14,15 @@
 
 // npm init -y (everything default) - recommended
 
+const _ = require("lodash");
 
+const items = [1, [2, [3, [4]]]];
 
-const _ = require('lodash')
+const newItems = _.flattenDeep(items);
 
-const items = [1,[2,[3,[4]]]]
+console.log(newItems);
 
-const newItems = _.flattenDeep(items)
+console.log("hello people");
 
-console.log(newItems)
+// npm uninstall package name
+
