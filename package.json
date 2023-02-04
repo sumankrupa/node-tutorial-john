@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "end": "node --version"
+    "end1": "node --version"
   },
   "keywords": [],
   "author": "",
@@ -18,3 +18,4 @@
     "lodash": "^4.17.21"
   }
 }
+
